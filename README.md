@@ -71,7 +71,7 @@ I scraped 2,138 property listings from Nigeria Property Centre using Python (Pla
 
 ### Data Cleaning
 
-This took way longer than I expected. The raw data was messy - prices in different currencies, inconsistent formatting, clear outliers. I ended up doing 3 separate cleaning rounds:
+The raw data was messy, prices in different currencies, inconsistent formatting, clear outliers. I ended up doing 3 separate cleaning rounds:
 
 **Round 1 - Feature Engineering**
 - Extracted bedroom counts and property types from listing titles using regex
@@ -86,20 +86,20 @@ This took way longer than I expected. The raw data was messy - prices in differe
 
 **Round 3 - Final Quality Control**
 - Removed extreme rental outliers that would skew the analysis
-- This made a huge difference - the maximum rent dropped from ₦1.5 billion to ₦50 million
+- This made a huge difference, the maximum rent dropped from ₦1.5 billion to ₦50 million
 - Average rent went from ₦23M to ₦15M (35% more accurate)
 - Final dataset: 1,993 properties (removed 145 outliers total)
 
 ### Dashboard Creation
 
-Built everything in Tableau with 13 different visualizations:
+Built everything in Tableau with 11 different visualizations:
 - KPI metrics showing market overview
 - Bar charts comparing top areas by price
 - Bedroom demand analysis
 - Investment opportunity scatter plot
 - Dual-axis chart showing both price-to-rent ratios and yields
 
-I used LOD (Level of Detail) expressions to calculate area-level metrics like average prices and rental yields. The dashboard is fully interactive - you can filter by area, property type, and bedroom count.
+I used LOD (Level of Detail) expressions to calculate area-level metrics like average prices and rental yields.
 
 ---
 
@@ -108,8 +108,6 @@ I used LOD (Level of Detail) expressions to calculate area-level metrics like av
 **Geographic inequality is massive**. A 30x difference in investment returns within the same city tells you that location is everything. Property type and size matter far less than where you're buying.
 
 **Premium areas aren't always profitable**. Ikoyi properties are expensive, but the rental yields are mediocre. You're paying for prestige, not cash flow.
-
-**Data quality matters more than I thought**. Removing just 7% of the data as outliers improved accuracy by 35%. If I'd used the raw data, every conclusion would have been wrong. This taught me to never trust data at face value.
 
 **The market is concentrated**. Lekki has almost half of all listings. This could mean high demand, or it could mean the market is oversaturated. Would need sales velocity data to know for sure.
 
