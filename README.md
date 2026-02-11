@@ -6,7 +6,7 @@
 
 ## What This Project Is About
 
-I built an interactive dashboard that analyzes 1,993 properties across Lagos to help investors, buyers, and renters make smarter real estate decisions. The short version: I scraped property listings from Nigeria Property Centre, cleaned the messy data (which took 3 rounds!), and created visualizations that reveal some pretty interesting investment patterns.
+I built an interactive dashboard that analyzes 1,993 properties across Lagos to help investors, buyers, and renters make smarter real estate decisions. I scraped property listings from Nigeria Property Centre, cleaned the messy data (which took 3 rounds!), and created visualizations that reveal some pretty interesting investment patterns.
 
 The main finding? Investment returns vary wildly across Lagos - from 9.3% yields in Ibeju Lekki to 0.3% in Ikorodu. That's a 30x difference in the same city.
 
