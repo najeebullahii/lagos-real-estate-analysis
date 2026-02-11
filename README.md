@@ -69,7 +69,7 @@ The data revealed some interesting patterns:
 
 I scraped 2,138 property listings from Nigeria Property Centre using Python (Playwright and BeautifulSoup). The scraper pulled titles, prices, and addresses for properties across Lagos.
 
-### Data Cleaning (The Hard Part)
+### Data Cleaning
 
 This took way longer than I expected. The raw data was messy - prices in different currencies, inconsistent formatting, clear outliers. I ended up doing 3 separate cleaning rounds:
 
