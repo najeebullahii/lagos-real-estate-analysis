@@ -1,0 +1,18 @@
+# Lagos Real Estate Analysis - Python Dependencies
+
+# Core Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Web Scraping
+playwright==1.40.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Utilities
+requests==2.31.0
+
+# Optional: For Jupyter notebook exploration
+# jupyter==1.0.0
+# matplotlib==3.7.2
+# seaborn==0.12.2
